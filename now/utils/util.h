@@ -16,17 +16,18 @@
 #include <stdint.h>
 
 /**
- * @brief uint32 to be
+ * @brief uint32_to_be
  * 
  * @param val 
  * @param buffer 
  */
-static inline void uint32_to_be(const unit32_t val, uint8_t* buffer) {
+static inline void uint32_to_be(const uint32_t val, uint8_t* buffer) {
     NOW_ASSERT(buffer);
 
     buffer[0] = (val >> 24) & 0xFF;
     buffer[1] = (val >> 16) & 0xFF;
     buffer[2] = (val >> 8) & 0xFF;
+    buffer[3] = val & 0xFF;
 }
 
 /**
@@ -37,11 +38,15 @@ static inline void uint32_to_be(const unit32_t val, uint8_t* buffer) {
  */
 static inline void uint32_to_le(const uint32_t val, uint8_t* buffer) {
     NOW_ASSERT(buffer);
+
+    buffer[0] = val & 0xFF;
+    buffer[1] = (val >> 8) & 0xFF;
+    buffer[2] = (val >> 16) & 0xFF;
+    buffer[3] = (val >> 24) & 0xFF;
 }
 
-
 /**
- * @brief string all
+ * @brief string_all
  * 
  * @param s 
  * @param fntest 
@@ -57,7 +62,6 @@ static inline bool string_all(const char* s, int (*fntest)(int)) {
             return false;
         }
     }
-
     return true;
 }
 
@@ -78,23 +82,34 @@ static inline void map_string(char* s, int (*fnmap)(int)) {
 }
 
 /**
- * @brief is hardened
+ * @brief ishardened
  * 
  * @param n 
  * @return true 
  * @return false 
  */
-static inline bool ishardened(const uint32_t n) {
-    return n & 0x80000000;
+static inline bool ishardened(const uint32_t n) { 
+    return n & 0x80000000; 
 }
 
 /**
  * @brief harden
  * 
+ * @param n 
  * @return uint32_t 
  */
-static inline uint32_t harden(const uint32_t) {
+static inline uint32_t harden(const uint32_t n) { 
     return n | 0x80000000;
 }
 
-#endif 
+/**
+ * @brief unharden
+ * 
+ * @param n 
+ * @return uint32_t 
+ */
+static inline uint32_t unharden(const uint32_t n) { 
+    return n & ~0x80000000;
+}
+
+#endif
