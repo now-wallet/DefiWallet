@@ -7,3 +7,11 @@ class NowError(Exception):
     PROTOCOL_ERROR = -32001
     HW_LOCKED = -32002
     NETWORK_MISMATCH = -32003
+    
+    def __init__(self, code, message, data):
+        self.code = code
+        self.message = message
+        self.data = data
+
+    def __str__(self):
+        return repr(self)
