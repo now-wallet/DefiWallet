@@ -8,3 +8,19 @@
  * @copyright Copyright (c) 2023
  * 
  */
+
+#pragma once
+
+#ifdef __cplusplus 
+extern "C" {
+#endif
+
+typedef void (* button_cb)(void*);
+typedef void* button_handle_t;
+
+typedef enum {
+    BUTTON_ACTIVE_HIGH = 1,
+    BUTTON_ACTIVE_LOW = 0,
+} button_active_t;
+
+}
