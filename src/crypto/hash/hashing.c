@@ -9,14 +9,21 @@
  * 
  */
 
-#include "crypto/hash/hashing.h"
 #include <stddef.h>
 #include <stdint.h>
 #include <os.h>
 #include <cx.h>
+#include "crypto/hash/hashing.h"
 
+/**
+ * @brief hash256 
+ * 
+ * @param in 
+ * @param inSize 
+ * @param out 
+ */
 void hash256(uint8_t *in, size_t inSize, uint8_t *out) {
     cx_sha256_t ctx;
     cx_sha256_init(&ctx);
-    cx_hash(&ctx.header, CX_LAST, in);
+    cx_hash(&ctx.header, CX_LAST, in, inSize, out, CX_SHA256_SIZE);
 }
