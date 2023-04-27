@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B17FBF4F29FA846400C9FC66 /* hashing.c in Sources */ = {isa = PBXBuildFile; fileRef = B17FBF3F29FA846400C9FC66 /* hashing.c */; };
+		B17FBF5029FA846400C9FC66 /* base58.c in Sources */ = {isa = PBXBuildFile; fileRef = B17FBF4A29FA846400C9FC66 /* base58.c */; };
+		B17FBF5529FA852200C9FC66 /* nano.c in Sources */ = {isa = PBXBuildFile; fileRef = B17FBF5429FA852200C9FC66 /* nano.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B17FBF0E29FA840C00C9FC66 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B17FBF1029FA840C00C9FC66 /* NowWallet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NowWallet; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17FBF1B29FA844400C9FC66 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B17FBF1D29FA844500C9FC66 /* iot_button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iot_button.h; sourceTree = "<group>"; };
+		B17FBF1F29FA844C00C9FC66 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		B17FBF2029FA845400C9FC66 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B17FBF2129FA845400C9FC66 /* setup.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = setup.py; sourceTree = "<group>"; };
+		B17FBF2229FA845400C9FC66 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B17FBF3529FA845C00C9FC66 /* requirements.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = requirements.txt; sourceTree = "<group>"; };
+		B17FBF3629FA845C00C9FC66 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		B17FBF3729FA845C00C9FC66 /* now_error.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = now_error.py; sourceTree = "<group>"; };
+		B17FBF3829FA845C00C9FC66 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B17FBF3A29FA845C00C9FC66 /* u2f.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = u2f.py; sourceTree = "<group>"; };
+		B17FBF3F29FA846400C9FC66 /* hashing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hashing.c; sourceTree = "<group>"; };
+		B17FBF4029FA846400C9FC66 /* hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashing.h; sourceTree = "<group>"; };
+		B17FBF4129FA846400C9FC66 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B17FBF4229FA846400C9FC66 /* approval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = approval.h; sourceTree = "<group>"; };
+		B17FBF4529FA846400C9FC66 /* print.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = print.h; sourceTree = "<group>"; };
+		B17FBF4629FA846400C9FC66 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		B17FBF4729FA846400C9FC66 /* str.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = str.h; sourceTree = "<group>"; };
+		B17FBF4929FA846400C9FC66 /* base58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base58.h; sourceTree = "<group>"; };
+		B17FBF4A29FA846400C9FC66 /* base58.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base58.c; sourceTree = "<group>"; };
+		B17FBF4B29FA846400C9FC66 /* unpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unpack.h; sourceTree = "<group>"; };
+		B17FBF4C29FA846400C9FC66 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		B17FBF4D29FA846400C9FC66 /* consts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = consts.h; sourceTree = "<group>"; };
+		B17FBF4E29FA846400C9FC66 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		B17FBF5329FA852200C9FC66 /* nano.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nano.h; sourceTree = "<group>"; };
+		B17FBF5429FA852200C9FC66 /* nano.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = nano.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B17FBF0D29FA840C00C9FC66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B17FBF0729FA840C00C9FC66 = {
+			isa = PBXGroup;
+			children = (
+				B17FBF3C29FA846400C9FC66 /* src */,
+				B17FBF3129FA845C00C9FC66 /* nowpy */,
+				B17FBF2229FA845400C9FC66 /* LICENSE */,
+				B17FBF2029FA845400C9FC66 /* README.md */,
+				B17FBF2129FA845400C9FC66 /* setup.py */,
+				B17FBF1E29FA844C00C9FC66 /* docs */,
+				B17FBF1A29FA844400C9FC66 /* compo */,
+				B17FBF1129FA840C00C9FC66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B17FBF1129FA840C00C9FC66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B17FBF1029FA840C00C9FC66 /* NowWallet */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B17FBF1A29FA844400C9FC66 /* compo */ = {
+			isa = PBXGroup;
+			children = (
+				B17FBF1B29FA844400C9FC66 /* README.md */,
+				B17FBF1C29FA844500C9FC66 /* button */,
+			);
+			path = compo;
+			sourceTree = "<group>";
+		};
+		B17FBF1C29FA844500C9FC66 /* button */ = {
+			isa = PBXGroup;
+			children = (
+				B17FBF1D29FA844500C9FC66 /* iot_button.h */,
+			);
+			path = button;
+			sourceTree = "<group>";
+		};
+		B17FBF1E29FA844C00C9FC66 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				B17FBF1F29FA844C00C9FC66 /* CONTRIBUTING.md */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		B17FBF3129FA845C00C9FC66 /* nowpy */ = {
+			isa = PBXGroup;
+			children = (
+				B17FBF3529FA845C00C9FC66 /* requirements.txt */,
+				B17FBF3629FA845C00C9FC66 /* Makefile */,
+				B17FBF3729FA845C00C9FC66 /* now_error.py */,
+				B17FBF3829FA845C00C9FC66 /* README.md */,
+				B17FBF3929FA845C00C9FC66 /* u2f */,
+			);
+			path = nowpy;
+			sourceTree = "<group>";
+		};
+		B17FBF3929FA845C00C9FC66 /* u2f */ = {
+			isa = PBXGroup;
+			children = (
+				B17FBF3A29FA845C00C9FC66 /* u2f.py */,
+			);
+			path = u2f;
+			sourceTree = "<group>";
+		};
+		B17FBF3C29FA846400C9FC66 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B17FBF5129FA851200C9FC66 /* display */,
+				B17FBF3D29FA846400C9FC66 /* crypto */,
+				B17FBF4229FA846400C9FC66 /* approval.h */,
+				B17FBF4329FA846400C9FC66 /* utils */,
+				B17FBF4C29FA846400C9FC66 /* aes.h */,
+				B17FBF4D29FA846400C9FC66 /* consts.h */,
+				B17FBF4E29FA846400C9FC66 /* platform.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		B17FBF3D29FA846400C9FC66 /* crypto */ = {
+			isa = PBXGroup;
+			children = (
+				B17FBF3E29FA846400C9FC66 /* hash */,
+				B17FBF4129FA846400C9FC66 /* README.md */,
+			);
+			path = crypto;
+			sourceTree = "<group>";
+		};
+		B17FBF3E29FA846400C9FC66 /* hash */ = {
+			isa = PBXGroup;
+			children = (
+				B17FBF3F29FA846400C9FC66 /* hashing.c */,
+				B17FBF4029FA846400C9FC66 /* hashing.h */,
+			);
+			path = hash;
+			sourceTree = "<group>";
+		};
+		B17FBF4329FA846400C9FC66 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				B17FBF4429FA846400C9FC66 /* print */,
+				B17FBF4629FA846400C9FC66 /* util.h */,
+				B17FBF4729FA846400C9FC66 /* str.h */,
+				B17FBF4829FA846400C9FC66 /* base58 */,
+				B17FBF4B29FA846400C9FC66 /* unpack.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		B17FBF4429FA846400C9FC66 /* print */ = {
+			isa = PBXGroup;
+			children = (
+				B17FBF4529FA846400C9FC66 /* print.h */,
+			);
+			path = print;
+			sourceTree = "<group>";
+		};
+		B17FBF4829FA846400C9FC66 /* base58 */ = {
+			isa = PBXGroup;
+			children = (
+				B17FBF4929FA846400C9FC66 /* base58.h */,
+				B17FBF4A29FA846400C9FC66 /* base58.c */,
+			);
+			path = base58;
+			sourceTree = "<group>";
+		};
+		B17FBF5129FA851200C9FC66 /* display */ = {
+			isa = PBXGroup;
+			children = (
+				B17FBF5229FA851700C9FC66 /* nano */,
+			);
+			path = display;
+			sourceTree = "<group>";
+		};
+		B17FBF5229FA851700C9FC66 /* nano */ = {
+			isa = PBXGroup;
+			children = (
+				B17FBF5329FA852200C9FC66 /* nano.h */,
+				B17FBF5429FA852200C9FC66 /* nano.c */,
+			);
+			path = nano;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B17FBF0F29FA840C00C9FC66 /* NowWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17FBF1729FA840C00C9FC66 /* Build configuration list for PBXNativeTarget "NowWallet" */;
+			buildPhases = (
+				B17FBF0C29FA840C00C9FC66 /* Sources */,
+				B17FBF0D29FA840C00C9FC66 /* Frameworks */,
+				B17FBF0E29FA840C00C9FC66 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NowWallet;
+			productName = NowWallet;
+			productReference = B17FBF1029FA840C00C9FC66 /* NowWallet */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B17FBF0829FA840C00C9FC66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B17FBF0F29FA840C00C9FC66 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B17FBF0B29FA840C00C9FC66 /* Build configuration list for PBXProject "NowWallet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B17FBF0729FA840C00C9FC66;
+			productRefGroup = B17FBF1129FA840C00C9FC66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B17FBF0F29FA840C00C9FC66 /* NowWallet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B17FBF0C29FA840C00C9FC66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17FBF4F29FA846400C9FC66 /* hashing.c in Sources */,
+				B17FBF5529FA852200C9FC66 /* nano.c in Sources */,
+				B17FBF5029FA846400C9FC66 /* base58.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B17FBF1529FA840C00C9FC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B17FBF1629FA840C00C9FC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B17FBF1829FA840C00C9FC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B17FBF1929FA840C00C9FC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B17FBF0B29FA840C00C9FC66 /* Build configuration list for PBXProject "NowWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17FBF1529FA840C00C9FC66 /* Debug */,
+				B17FBF1629FA840C00C9FC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B17FBF1729FA840C00C9FC66 /* Build configuration list for PBXNativeTarget "NowWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17FBF1829FA840C00C9FC66 /* Debug */,
+				B17FBF1929FA840C00C9FC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B17FBF0829FA840C00C9FC66 /* Project object */;
+}

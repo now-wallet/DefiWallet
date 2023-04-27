@@ -96,6 +96,7 @@ int base58Encode(const uint8_t *in, size_t length, char *out, size_t *outlen) {
     return 0U;
 }
 
+
 /**
  * @brief base58 Check Encode
  * 
