@@ -15,13 +15,45 @@
 #include <stddef.h>
 #include "src/platform.h"
 
-static const size_t DISPLAY_CTX_TEXT_SIZE_EXT = 256;
-static const size_t DISPLAY_CTX_OP_SIZE     = 21;
+/**
+ * @brief DISPLAY_CTX_TEXT_SIZE_EXT
+ * 
+ */
+static const size_t DISPLAY_CTX_TEXT_SIZE_EXT   = 256;
 
+/**
+ * @brief DISPLAY_CTX[OP_SIZE, STEP_COUNT, TITLE_SIZE]
+ * 
+ */
+#if defined(SUPPORTS_LARGE_OPERATIONS)
+    static const size_t DISPLAY_CTX_OP_SIZE     = 21;
+    static const size_t DISPLAY_CTX_STEP_COUNT  = 40;
+    static const size_t DISPLAY_CTX_TITLE_SIZE  = DISPLAY_CTX_OP_SIZE - 1;
+    static const size_t DISPLAY_CTX_TEXT_SIZE   = 130;
+#else
+    static const size_t DISPLAY_CTX_OP_SIZE     = 18;
+    static const size_t DISPLAY_CTX_STEP_COUNT  = 5;
+    static const size_t DISPLAY_CTX_TITLE_SIZE  = DISPLAY_CTX_OP_SIZE - 3;
+    static const size_t DISPLAY_CTX_TEXT_SIZE   = 68;
+#endif
+
+/**
+ * @brief display_context_t
+ * 
+ */
 typedef struct display_context_t {
-    char operation [DISPLAY_CTX_OP_SIZE]
+    char    operation   [DISPLAY_CTX_OP_SIZE];
+    char    title       [DISPLAY_CTX_STEP_COUNT] [DISPLAY_CTX_TITLE_SIZE];
+    char    text        [DISPLAY_CTX_STEP_COUNT] [DISPLAY_CTX_TEXT_SIZE];
+
+    char    title_ext   [DISPLAY_CTX_TITLE_SIZE];
+    char    text_ext    [DISPLAY_CTX_TEXT_SIZE_EXT];
 } DisplayContext;
 
+/**
+ * @brief displayCtx
+ * 
+ */
 extern DisplayContext displayCtx;
 
-#endif
+#endif  
