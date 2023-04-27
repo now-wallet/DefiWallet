@@ -11,4 +11,4 @@ Hardware Wallet
 
 ## Contribution:
 - **NowWallet** is still in development contributions are always welcome!
-- visit the [CONTRIBUTING.md]() for more details 
+- visit the [CONTRIBUTING.md](https://github.com/now-wallet/NowWallet/blob/main/docs/CONTRIBUTING.md) for more details 
