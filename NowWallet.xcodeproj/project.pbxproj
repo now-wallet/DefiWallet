@@ -11,6 +11,7 @@
 		B17FBF5029FA846400C9FC66 /* base58.c in Sources */ = {isa = PBXBuildFile; fileRef = B17FBF4A29FA846400C9FC66 /* base58.c */; };
 		B17FBF5529FA852200C9FC66 /* nano.c in Sources */ = {isa = PBXBuildFile; fileRef = B17FBF5429FA852200C9FC66 /* nano.c */; };
 		B17FBF5A29FA882500C9FC66 /* context.c in Sources */ = {isa = PBXBuildFile; fileRef = B17FBF5929FA882500C9FC66 /* context.c */; };
+		B17FBF5D29FA8B1200C9FC66 /* key.c in Sources */ = {isa = PBXBuildFile; fileRef = B17FBF5C29FA8B1200C9FC66 /* key.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,6 +57,8 @@
 		B17FBF5629FA87A500C9FC66 /* display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = display.h; sourceTree = "<group>"; };
 		B17FBF5829FA882500C9FC66 /* context.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = context.h; sourceTree = "<group>"; };
 		B17FBF5929FA882500C9FC66 /* context.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = context.c; sourceTree = "<group>"; };
+		B17FBF5B29FA8B1200C9FC66 /* key.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = key.h; sourceTree = "<group>"; };
+		B17FBF5C29FA8B1200C9FC66 /* key.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = key.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +158,8 @@
 			children = (
 				B17FBF3E29FA846400C9FC66 /* hash */,
 				B17FBF4129FA846400C9FC66 /* README.md */,
+				B17FBF5B29FA8B1200C9FC66 /* key.h */,
+				B17FBF5C29FA8B1200C9FC66 /* key.c */,
 			);
 			path = crypto;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B17FBF5D29FA8B1200C9FC66 /* key.c in Sources */,
 				B17FBF4F29FA846400C9FC66 /* hashing.c in Sources */,
 				B17FBF5529FA852200C9FC66 /* nano.c in Sources */,
 				B17FBF5029FA846400C9FC66 /* base58.c in Sources */,
