@@ -8,3 +8,15 @@
  * @copyright Copyright (c) 2023 Krisna Pranav, NowWallet
  * 
  */
+
+#include "crypto/hash/hashing.h"
+#include <stddef.h>
+#include <stdint.h>
+#include <os.h>
+#include <cx.h>
+
+void hash256(uint8_t *in, size_t inSize, uint8_t *out) {
+    cx_sha256_t ctx;
+    cx_sha256_init(&ctx);
+    cx_hash(&ctx.header, CX_LAST, in);
+}
