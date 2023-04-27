@@ -16,7 +16,7 @@
 #include <stdint.h>
 
 /**
- * @brief base58 Encode
+ * @brief base58 encoding
  * 
  * @param in 
  * @param length 
@@ -27,12 +27,14 @@
 int base58Encode(const uint8_t *in, size_t length, char *out, size_t *outlen);
 
 /**
- * @brief base58 check
+ * @brief check encode
  * 
  * @param in 
  * @param length 
+ * @param out 
+ * @param outLen 
  * @return int 
  */
-int base58Check(const uint8_t *in, size_t length);
+int base58CheckEncode(const uint8_t *in, size_t length, char *out, size_t outLen);
 
-#endif
+#endif  
