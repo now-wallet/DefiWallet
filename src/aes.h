@@ -9,8 +9,8 @@
  * 
  */
 
-#ifndef AES_H
-#define AES_H
+#ifndef NOW_AES_H
+#define NOW_AES_H
 
 #include <stdbool.h>
 #include <stddef.h>
