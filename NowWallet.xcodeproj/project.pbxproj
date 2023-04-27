@@ -10,6 +10,7 @@
 		B17FBF4F29FA846400C9FC66 /* hashing.c in Sources */ = {isa = PBXBuildFile; fileRef = B17FBF3F29FA846400C9FC66 /* hashing.c */; };
 		B17FBF5029FA846400C9FC66 /* base58.c in Sources */ = {isa = PBXBuildFile; fileRef = B17FBF4A29FA846400C9FC66 /* base58.c */; };
 		B17FBF5529FA852200C9FC66 /* nano.c in Sources */ = {isa = PBXBuildFile; fileRef = B17FBF5429FA852200C9FC66 /* nano.c */; };
+		B17FBF5A29FA882500C9FC66 /* context.c in Sources */ = {isa = PBXBuildFile; fileRef = B17FBF5929FA882500C9FC66 /* context.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,8 @@
 		B17FBF5329FA852200C9FC66 /* nano.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nano.h; sourceTree = "<group>"; };
 		B17FBF5429FA852200C9FC66 /* nano.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = nano.c; sourceTree = "<group>"; };
 		B17FBF5629FA87A500C9FC66 /* display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = display.h; sourceTree = "<group>"; };
+		B17FBF5829FA882500C9FC66 /* context.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = context.h; sourceTree = "<group>"; };
+		B17FBF5929FA882500C9FC66 /* context.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = context.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +200,7 @@
 		B17FBF5129FA851200C9FC66 /* display */ = {
 			isa = PBXGroup;
 			children = (
+				B17FBF5729FA881C00C9FC66 /* context */,
 				B17FBF5229FA851700C9FC66 /* nano */,
 				B17FBF5629FA87A500C9FC66 /* display.h */,
 			);
@@ -210,6 +214,15 @@
 				B17FBF5429FA852200C9FC66 /* nano.c */,
 			);
 			path = nano;
+			sourceTree = "<group>";
+		};
+		B17FBF5729FA881C00C9FC66 /* context */ = {
+			isa = PBXGroup;
+			children = (
+				B17FBF5829FA882500C9FC66 /* context.h */,
+				B17FBF5929FA882500C9FC66 /* context.c */,
+			);
+			path = context;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 				B17FBF4F29FA846400C9FC66 /* hashing.c in Sources */,
 				B17FBF5529FA852200C9FC66 /* nano.c in Sources */,
 				B17FBF5029FA846400C9FC66 /* base58.c in Sources */,
+				B17FBF5A29FA882500C9FC66 /* context.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
