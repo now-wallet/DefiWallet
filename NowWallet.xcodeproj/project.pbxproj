@@ -52,6 +52,7 @@
 		B17FBF4E29FA846400C9FC66 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
 		B17FBF5329FA852200C9FC66 /* nano.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nano.h; sourceTree = "<group>"; };
 		B17FBF5429FA852200C9FC66 /* nano.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = nano.c; sourceTree = "<group>"; };
+		B17FBF5629FA87A500C9FC66 /* display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = display.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				B17FBF5229FA851700C9FC66 /* nano */,
+				B17FBF5629FA87A500C9FC66 /* display.h */,
 			);
 			path = display;
 			sourceTree = "<group>";
