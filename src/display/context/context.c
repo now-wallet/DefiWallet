@@ -10,3 +10,5 @@
  */
 
 #include "context.h"
+
+DisplayContext displayCtx;
