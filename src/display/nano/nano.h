@@ -14,11 +14,17 @@
 
 #include <stdint.h>
 
-void setupDisplay(size_t steps);
-
+/**
+ * @brief Set the Ux Display object
+ * 
+ * @param steps 
+ * @param extendedStep 
+ */
+void setUxDisplay(size_t steps, size_t extendedStep);
 
 /**
- * @brief: ui_idle
+ * @brief ui idle
+ * 
  */
 void ui_idle(void);
 
