@@ -1,9 +1,13 @@
-//
-//  key.c
-//  NowWallet
-//
-//  Created by krisna pranav on 27/04/23.
-//
+/**
+ * @file key.c
+ * @author Krisna Pranav
+ * @brief Key
+ * @version 0.1
+ * @date 2023-04-27
+ * 
+ * @copyright Copyright (c) 2023 Krisna Pranav, NowWallet
+ * 
+ */
 
 #include <stddef.h>
 #include <stdint.h>
