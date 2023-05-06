@@ -66,7 +66,7 @@ bool handleMessage(const uint8_t *buffer, size_t length) {
 
     SNPRINTF(displayCtx.text_ext, length + 1, "%.*s", (int)length, buffer);
 
-    SetUxDisplay(UX_MESSAGE_STEPS, UX_MESSAGE_STEPS);
+    setUxDisplay(UX_MESSAGE_STEPS, UX_MESSAGE_STEPS);
 
     return true;
 }
